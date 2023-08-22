@@ -14,13 +14,13 @@ int main()
 		printf("\nEx 6 - Exibir o primeiro e ultimo valor do vetor");
 		printf("\nEx 7 - Exibir os valores cujos indices sejam pares");
 		printf("\nEx 8 - Fazer um algoritmo que retorne true caso o valor passado pelo parâmetro exista no vetor");
-		printf("\nEx 9 - ");
+		printf("\nEx 9 - Fazer um procedimento que ordene os elementos do vetor");
 		printf("\nEx 10 - Fazer um algoritmo que copie os valores do vetor 1 no vetor 2");
 		printf("\nEx 11 - Fazer um algoritmo que copie os elementos invertidos do vetor v1 em v2");
-		printf("\nEx 12 -");
-		printf("\nEx 13 -");
-		printf("\nEx 14 -");
-		printf("\nEx 15 -");
+		printf("\nEx 12 - Fazer um algoritmo que ordene de forma crescente os valores do vetor");
+		printf("\nEx 13 - Fazer um algoritmo que ordene de forma decrescente os valores do vetor");
+		printf("\nEx 14 - Fazer um algoritmo que ordene o vetor de forma crescente ou decrescente de acordo com a escolha do usuario");
+		printf("\nEx 15 - Fazer um algoritmo que coloque valores pares na esquerda e impares na direita");
 		printf("\nEx 16 - Exibir quantos valores que estejam acima da media");
 		printf("\nEx 17 - Fazer um codigo que retorne o maior valor do vetor");
 		printf("\n Digite 0 caso queira encerrar o codigo\n ");
@@ -35,6 +35,14 @@ int main()
 				break;
 				
 			case 1:
+				int v1[5];
+				v1[0]=45;
+				v1[1]=-89;
+				v1[2]=32;
+				v1[3]=-12;
+				v1[4]=33;
+				
+				printf("\n%d\n", v1[0]);
 				break;
 								
 			case 2:
@@ -332,6 +340,25 @@ int main()
 				break;
 				
 			case 15:
+				int v15[5], i15, o15;
+				v15[0]=41;
+				v15[1]=72;
+				v15[2]=39;
+				v15[3]=4;
+				v15[4]=35;
+	
+				for (i15=0; i15<5; i15++){
+					
+					if (v15[i15]%2 == 0){
+						printf("%d ", v15[i15]);
+					}
+				}
+				for (o15=0; o15<5; o15++){
+				
+				if (v15[o15]%2 != 0){
+						printf("%d ", v15[o15]);;
+			}	
+			}
 				break;
 				
 			case 16:
