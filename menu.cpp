@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
 	int ex, rep;
@@ -43,6 +44,8 @@ int main()
 				v1[4]=33;
 				
 				printf("\n%d\n", v1[0]);
+				system("pause");
+				system("cls");
 				break;
 								
 			case 2:
@@ -58,6 +61,8 @@ int main()
 					if(v2[i2] < 0)
 					printf("%d ",v2[i2]);
 				}
+				system("pause");
+				system("cls");
 				break;
 				
 			case 3:
@@ -73,6 +78,8 @@ int main()
 					s3 += v3[i3];
 				}
 				printf("Soma = %d ", s3);
+				system("pause");
+				system("cls");
 				break;
 				
 			case 4:
@@ -90,6 +97,8 @@ int main()
 				}
 				med4 = s4 / 5;
 				printf("Media = %.1f ", med4);
+				system("pause");
+				system("cls");
 				break;
 				
 			case 5:
@@ -106,6 +115,8 @@ int main()
 					if (v5[i5] % 2 != 0)
 					printf("%d ", v5[i5]);
 				}
+				system("pause");
+				system("cls");
 				break;
 				
 			case 6:
@@ -117,6 +128,8 @@ int main()
 				v6[4]=33;
 				printf("%d",v6[0]);
 				printf("\n%d\n", v6[4]);
+				system("pause");
+				system("cls");
 				break;
 				
 			case 7:
@@ -134,6 +147,8 @@ int main()
 						printf("\n%d\n", v7[i7]);
 					}
 				}
+				system("pause");
+				system("cls");
 				break;
 				
 			case 8:
@@ -164,6 +179,8 @@ int main()
 					printf("\nFalse");
 				}
 				
+				system("pause");
+				system("cls");
 				break;
 				
 			case 9:
@@ -189,6 +206,8 @@ int main()
         			printf("%d \n", v9[i9]);
     			}
     			
+    			system("pause");
+    			system("cls");
 				break;
 				
 			case 10:
@@ -205,6 +224,9 @@ int main()
 					printf("v1[%d] = %d\n", i10, v110[i10]);
 					printf("v2[%d] = %d\n", i10, v210[i10]);
 				}
+				
+				system("pause");
+				system("cls");
 				break;
 				
 			case 11:
@@ -227,6 +249,8 @@ int main()
 					printf("n2[%d] = %d\n", n11, v211[n11]);
 				}
 				
+				system("pause");
+				system("cls");
 				break;
 				
 			case 12:			
@@ -250,7 +274,10 @@ int main()
     			printf("\nVetor ordenado de forma crescente: \n");
     			for (int i12 = 0; i12 < 5; i12++) {
         			printf("%d \n", v12[i12]);
-    			}
+    			
+				}
+				system("pause");
+				system("cls");
 				break;
 				
 			case 13:
@@ -280,6 +307,9 @@ int main()
     			for (int i13 = 0; i13 < 5; i13++) {
         			printf("%d\n ", v13[i13]);
     			}
+    			
+    			system("pause");
+    			system("cls");
 				break;
 							
 			case 14:
@@ -337,6 +367,8 @@ int main()
 	 			}
 			}
 			}
+			system("pause");
+			system("cls");
 				break;
 				
 			case 15:
@@ -359,6 +391,8 @@ int main()
 						printf("%d ", v15[o15]);;
 			}	
 			}
+			system("pause");
+			system("cls");
 				break;
 				
 			case 16:
@@ -381,7 +415,10 @@ int main()
 					}
 				}
 				printf("\nO vetor possui %d valores acima da media\n", n16);
+				system("pause");
+				system("cls");
 				break;
+				
 							
 			case 17:
 				int  v17[5];
@@ -420,11 +457,14 @@ int main()
 						}
 					}
 				}
+				system("pause");
+				system("cls");
 				break;
 						
 			default:
 				printf("\nDigite um valor valido\n");
 				break;
 		}
-	}while (rep==1);
+	}
+	while (rep==1);
 }
